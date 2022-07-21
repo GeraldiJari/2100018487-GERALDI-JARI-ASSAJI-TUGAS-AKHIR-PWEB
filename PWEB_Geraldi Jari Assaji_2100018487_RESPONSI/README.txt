@@ -1,0 +1,5 @@
+Memakai XAMPP lalu ke localhost
+
+NAMA : GERALDI JARI ASSAJI
+NIM  : 2100018487
+KELAS J

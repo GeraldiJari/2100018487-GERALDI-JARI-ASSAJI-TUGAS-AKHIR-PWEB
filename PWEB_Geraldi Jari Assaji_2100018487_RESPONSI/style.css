@@ -1,0 +1,124 @@
+body{
+	background: url(./gambar/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background: #333;*/
+}
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+	text-align: center;
+	padding: 30px;
+	background-image: linear-gradient(white, lightblue);
+	border-radius: 10px 10px 0px 0px;
+}
+.link{
+	overflow: hidden;
+	background-image: linear-gradient(lightblue, white);
+}
+.link a{
+	float: left;
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+hr{
+	background-color: #333;
+	height:5px;
+	border-width:0;
+}
+.justifycolumn{
+	float: left;
+	width: 100%;
+}
+.leftcolumn{
+	float: left;
+	width: 60%;
+}
+.kolomkanan{
+	float: right;
+	width: 38%;
+}
+.footer{
+	padding: 20px;
+	text-align: center;
+	background: url(./gambar/background.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+.about1{
+	padding: 10px;
+	margin-top: 10px;
+	background: url(./gambar/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	padding-left: 30px;
+}
+.tampilan{
+	font-weight: bold;
+	width: 250px;
+	height: 50px;
+	background-color: black;
+	color: lightblue;
+	text-align: right;
+}
+.container{
+	padding: 30px 0px 00px 30px;
+	box-shadow: 8px 8px 8px;
+	color: grey;
+	background-color: darkviolet;
+	border-radius: 10px;
+}
+.button{
+	background-color: grey;
+	border-radius: 5px;
+	border-color: lightblue;
+	width: 60px;
+	height: 60px;
+	box-shadow: 2px 2px 2px;
+	color: lightblue;
+}
+.button:hover {
+	background-color: red;
+	border-color: red;
+}
+
+.button:active {
+  background-color: darkred;
+  border-color: darkred;
+  box-shadow: 2px 2px 2px;
+  transform: translateY(4px);
+}
+.button_eval{
+	background-color: red;
+	border-radius: 10px;
+	border-color: red;
+	width: 60px;
+	height: 60px;
+	box-shadow: 2px 2px 2px;
+	color: black;
+}
+.button_eval:hover{
+	background-color: lightblue;
+	border-color: lightblue;
+}
+.button_c{
+	background-color: red;
+	border-radius: 10px;
+	border-color: red;
+	width: 60px;
+	height: 60px;
+	box-shadow: 2px 2px 2px;
+	color: black;
+}
+.button_c:hover{
+	background-color: lightblue;
+	border-color: lightblue;
+}
